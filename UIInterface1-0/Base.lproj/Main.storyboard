@@ -1,25 +1,127 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gi-vZ-7J9">
+                                <rect key="frame" x="16" y="71" width="50" height="50"/>
+                                <state key="normal" title="Button" image="Home-50 (1).png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Home-50 (2).png"/>
+                                <state key="highlighted" image="Home-50 (2).png"/>
+                                <connections>
+                                    <action selector="addressButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qTc-oF-JiB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aX7-Xt-McW">
+                                <rect key="frame" x="298" y="71" width="54" height="50"/>
+                                <state key="normal" title="Button" image="Front Desk-50.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Front Desk-50 (2).png"/>
+                                <state key="highlighted" image="Front Desk-50 (2).png"/>
+                                <connections>
+                                    <action selector="frontDeskButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dWt-MS-SHn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ila-98-yUs">
+                                <rect key="frame" x="135" y="22" width="105" height="21"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozA-Co-v0m">
+                                <rect key="frame" x="16" y="20" width="25" height="28"/>
+                                <state key="normal" title="Button" backgroundImage="Menu-50.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0x-Sk-hhE">
+                                <rect key="frame" x="209" y="71" width="55" height="50"/>
+                                <state key="normal" title="Button" image="Info-50.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Info-50 (1).png"/>
+                                <state key="highlighted" image="Info-50 (1).png"/>
+                                <connections>
+                                    <action selector="infoButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MJc-ZE-fSO"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sD2-rH-5dS">
+                                <rect key="frame" x="16" y="134" width="68" height="75"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Joy-6d-918">
+                                <rect key="frame" x="111" y="134" width="68" height="75"/>
+                                <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brx-vq-5Y2">
+                                <rect key="frame" x="202" y="134" width="68" height="75"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3mF-De-v5a">
+                                <rect key="frame" x="291" y="134" width="68" height="75"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGM-WW-TtG">
+                                <rect key="frame" x="119" y="71" width="52" height="50"/>
+                                <state key="normal" title="Button" image="Unlock-50.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="Unlock-50 (1).png"/>
+                                <state key="highlighted" image="Unlock-50 (1).png"/>
+                                <connections>
+                                    <action selector="entranceButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="kHs-U7-BpB"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="addressButton" destination="4Gi-vZ-7J9" id="HCF-vr-Bm7"/>
+                        <outlet property="addressView" destination="sD2-rH-5dS" id="5Bp-kb-2YD"/>
+                        <outlet property="entranceButton" destination="hGM-WW-TtG" id="Wda-SL-770"/>
+                        <outlet property="entranceView" destination="Joy-6d-918" id="h9A-V9-pSC"/>
+                        <outlet property="frontDeskButton" destination="aX7-Xt-McW" id="0cH-hd-zxZ"/>
+                        <outlet property="frontDeskView" destination="3mF-De-v5a" id="Agk-Ya-inm"/>
+                        <outlet property="infoButton" destination="z0x-Sk-hhE" id="D7k-lj-0T6"/>
+                        <outlet property="infoView" destination="brx-vq-5Y2" id="KVU-KO-B9H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="180.5" y="405.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Front Desk-50 (2).png" width="50" height="50"/>
+        <image name="Front Desk-50.png" width="50" height="50"/>
+        <image name="Home-50 (1).png" width="50" height="50"/>
+        <image name="Home-50 (2).png" width="50" height="50"/>
+        <image name="Info-50 (1).png" width="50" height="50"/>
+        <image name="Info-50.png" width="50" height="50"/>
+        <image name="Menu-50.png" width="50" height="50"/>
+        <image name="Unlock-50 (1).png" width="50" height="50"/>
+        <image name="Unlock-50.png" width="50" height="50"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>

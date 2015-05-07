@@ -15,6 +15,15 @@
 		C91613511AF96A980024BF6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91613501AF96A980024BF6A /* Images.xcassets */; };
 		C91613541AF96A980024BF6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C91613521AF96A980024BF6A /* LaunchScreen.xib */; };
 		C91613601AF96A980024BF6A /* UIInterface1_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C916135F1AF96A980024BF6A /* UIInterface1_0Tests.m */; };
+		C916136C1AF96F350024BF6A /* Home-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C916136B1AF96F350024BF6A /* Home-50 (1).png */; };
+		C916136E1AF96FB20024BF6A /* Unlock-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C916136D1AF96FB20024BF6A /* Unlock-50.png */; };
+		C91613701AF9703E0024BF6A /* Info-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C916136F1AF9703E0024BF6A /* Info-50.png */; };
+		C91613721AF970A70024BF6A /* Front Desk-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C91613711AF970A70024BF6A /* Front Desk-50.png */; };
+		C91613741AF972920024BF6A /* Menu-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C91613731AF972920024BF6A /* Menu-50.png */; };
+		C91613761AFA5BB00024BF6A /* Front Desk-50 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = C91613751AFA5BB00024BF6A /* Front Desk-50 (2).png */; };
+		C91613781AFA5BE30024BF6A /* Home-50 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = C91613771AFA5BE30024BF6A /* Home-50 (2).png */; };
+		C916137A1AFA5C080024BF6A /* Info-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C91613791AFA5C080024BF6A /* Info-50 (1).png */; };
+		C916137C1AFA5C350024BF6A /* Unlock-50 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C916137B1AFA5C350024BF6A /* Unlock-50 (1).png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,15 @@
 		C91613591AF96A980024BF6A /* UIInterface1-0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIInterface1-0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C916135E1AF96A980024BF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C916135F1AF96A980024BF6A /* UIInterface1_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIInterface1_0Tests.m; sourceTree = "<group>"; };
+		C916136B1AF96F350024BF6A /* Home-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-50 (1).png"; sourceTree = "<group>"; };
+		C916136D1AF96FB20024BF6A /* Unlock-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unlock-50.png"; sourceTree = "<group>"; };
+		C916136F1AF9703E0024BF6A /* Info-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-50.png"; sourceTree = "<group>"; };
+		C91613711AF970A70024BF6A /* Front Desk-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Front Desk-50.png"; sourceTree = "<group>"; };
+		C91613731AF972920024BF6A /* Menu-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-50.png"; sourceTree = "<group>"; };
+		C91613751AFA5BB00024BF6A /* Front Desk-50 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Front Desk-50 (2).png"; sourceTree = "<group>"; };
+		C91613771AFA5BE30024BF6A /* Home-50 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-50 (2).png"; sourceTree = "<group>"; };
+		C91613791AFA5C080024BF6A /* Info-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-50 (1).png"; sourceTree = "<group>"; };
+		C916137B1AFA5C350024BF6A /* Unlock-50 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unlock-50 (1).png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,15 @@
 			children = (
 				C91613411AF96A980024BF6A /* Info.plist */,
 				C91613421AF96A980024BF6A /* main.m */,
+				C916136B1AF96F350024BF6A /* Home-50 (1).png */,
+				C916136D1AF96FB20024BF6A /* Unlock-50.png */,
+				C916136F1AF9703E0024BF6A /* Info-50.png */,
+				C91613711AF970A70024BF6A /* Front Desk-50.png */,
+				C91613731AF972920024BF6A /* Menu-50.png */,
+				C91613751AFA5BB00024BF6A /* Front Desk-50 (2).png */,
+				C91613771AFA5BE30024BF6A /* Home-50 (2).png */,
+				C91613791AFA5C080024BF6A /* Info-50 (1).png */,
+				C916137B1AFA5C350024BF6A /* Unlock-50 (1).png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,9 +229,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C916137C1AFA5C350024BF6A /* Unlock-50 (1).png in Resources */,
+				C91613701AF9703E0024BF6A /* Info-50.png in Resources */,
+				C91613721AF970A70024BF6A /* Front Desk-50.png in Resources */,
+				C91613761AFA5BB00024BF6A /* Front Desk-50 (2).png in Resources */,
+				C916136E1AF96FB20024BF6A /* Unlock-50.png in Resources */,
+				C91613781AFA5BE30024BF6A /* Home-50 (2).png in Resources */,
 				C916134F1AF96A980024BF6A /* Main.storyboard in Resources */,
 				C91613541AF96A980024BF6A /* LaunchScreen.xib in Resources */,
+				C916137A1AFA5C080024BF6A /* Info-50 (1).png in Resources */,
+				C91613741AF972920024BF6A /* Menu-50.png in Resources */,
 				C91613511AF96A980024BF6A /* Images.xcassets in Resources */,
+				C916136C1AF96F350024BF6A /* Home-50 (1).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIInterface1-0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UIInterface1-0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
